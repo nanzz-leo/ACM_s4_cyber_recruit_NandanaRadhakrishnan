@@ -1,2 +1,5 @@
 # ACM_s4_cyber_recruit_NandanaRadhakrishnan
-Acm s4 recruitment ctf 
+
+Name: Nandana Radhakrishnan
+Branch : BTECH CSE-B
+
