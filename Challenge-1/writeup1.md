@@ -13,15 +13,15 @@ Honestly, I wasted a bit of time at the start thinking this was a forensics chal
 
 When nothing came up, I took a step back and realized it was pure OSINT.
 
-The Approach:
+#### The Approach:
 
-Location ID: I tossed the image into Google Lens, which instantly identified the landmark as Charminar in Hyderabad.
+#### Location ID: I tossed the image into Google Lens, which instantly identified the landmark as Charminar in Hyderabad.
 
 Narrowing it down: The challenge description mentioned the year 1980, so I searched for famous restaurants near Charminar established around that time. Hotel Shadab came up as the top result.
 
-Finding the Flag: I looked up Hotel Shadab on Google Maps and sorted the photos/reviews by "Newest."
+#### Finding the Flag: I looked up Hotel Shadab on Google Maps and sorted the photos/reviews by "Newest."
 
-The Win: I found a menu uploaded just yesterday by a user named "Mani Ratnam." The flag was the price listed for the Chicken Biryani.
+#### The Win: I found a menu uploaded just yesterday by a user named "Mani Ratnam." The flag was the price listed for the Chicken Biryani.
 tried strings city.webp | grep -i "ACM" but no flage found
 
 trying binwalk -> didnt work as expected
