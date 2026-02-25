@@ -1,11 +1,11 @@
-#CTF Write-up 1 (OSINT)
+# CTF Write-up 1 (OSINT)
 date: 12/02/2026
 
-##Challenge Description
+## Challenge Description
 Restaurant:So last time I went to this place with my friend i ate in a restaurant which was opened in 1980. We ate chicken biryani in the ground floor of that restaurant. I don’t remember the price, can you find out?
 Flag format: ACM{}
 
-##Analysis and Approach
+## Analysis and Approach
 
 what is OSINT -> Open Source Intelligence
 exitftool? -> writing and editing metadata -> any imp info received ? -> No 
@@ -31,10 +31,10 @@ trying binwalk -> didnt work as expected
 searched what os int was properly , typed into google as to what restaurants opened in charminar during 1980 , found shadab restaurant
 checked the place with latest in it , found a menu by mani ratnam , one day ago, and saw the chicken biryani price and found the flag.
 
-##Tools/Commands Used
+## Tools/Commands Used
 exiftool, strings,binwalk,steghide (yet none was needed for this challenge)
 
-##The Final Flag
+## The Final Flag
 ACM{260}
 
 
